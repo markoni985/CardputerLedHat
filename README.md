@@ -3,7 +3,6 @@
 
 This project transforms your **M5Stack Cardputer** into a remote control terminal for Bluetooth LED Name Badges (often used as LED hats or scrolling name tags). It features a custom keyboard interface, a real-time text preview, and two additional visual modes: a functional NTP/Uptime Clock and a "Predator" style countdown.
 
-+4
 
 ---
 
@@ -13,23 +12,18 @@ This project transforms your **M5Stack Cardputer** into a remote control termina
     
 - **Customization:** Cycle through 5 different colors (Red, Green, Blue, Yellow, White) and 3 scroll modes (Fixed, Scroll-Left, Scroll-Right).
     
-    +2
     
 - **Real-time Preview:** A rolling ticker on the Cardputer screen shows exactly what your text looks like before you send it.
     
-    +1
     
 - **Clock Mode:** Displays time via NTP (if WiFi is configured) or system uptime using a stylized 7-segment display.
     
-    +1
     
 - **Predator Mode:** A visual easter egg featuring shifting alien glyphs and a "Final Countdown" display.
     
-    +1
     
 - **SD Config:** Load your badge's MAC address and WiFi credentials automatically from an SD card.
     
-    +1
     
 
 ---
@@ -62,15 +56,12 @@ TZ=CST6CDT,M3.2.0,M11.1.0
 
 - **MAC:** The Bluetooth MAC address of your LED Hat.
     
-    +2
     
 - **SSID/PASS:** Your WiFi credentials for NTP time syncing (optional).
     
-    +1
     
 - **TZ:** Your timezone string (default is Central Time).
     
-    +1
     
 
 ### 3. Arduino IDE Settings
